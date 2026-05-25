@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- tab name -->
     <title>Website Project</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
     <main>
+        <!-- Navigation bar, with links to each section of the page. The links are anchored to the corresponding sections using their IDs.-->
         <nav class="navbar">
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -19,6 +23,7 @@
             </ul>
         </nav>
 
+        <!-- The main content of the page is divided into sections, each with a unique ID that corresponds to the navigation links. The sections include a home section, an about me section, an experience section, a projects section, and a contact section. Each section contains relevant information and content related to its topic. -->
         <section class="home" id="home">
             <h1>Personal Portfolio</h1>
             <h2>Name</h2>
@@ -36,7 +41,39 @@
 
         <section class="experience" id="experience">
             <h1>Experience</h1>
+
+            <!-- A div tag is used to create a section to show the experience cards, experience cards are created dynamically using JavaScript -->
             <div class = "card-container" id="card-container"></div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h1>Projects</h1>
+
+            <!-- A div tag is used to create a section to show the project cards -->
+            <div class = "card-container" id="project-card-container"></div>
+        </section>
+
+        <!-- Contact section with links to LinkedIn and GitHub, as well as a button to open an email form. The email form is currently commented out and needs to be developed in the future, potentially using PHP and APIs. -->
+        <section class="contact" id="contact">
+            <h1>Contact</h1>
+            <div class="contact-info">
+                <a href="https://www.linkedin.com/in/vargas-moises" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/MoisesV02" target="_blank">
+                    <i class="fa-brands fa-square-github"></i>
+                </a>
+                
+                <!--EMAIL FORM, REQUIRES SERVER (MAYBE)-->
+                <!-- <button class="open-email" id="open-email" onclick="openForm()">
+                    <i class="fa-solid fa-at"></i>
+                </button>
+
+                <div class="email-form" id="email-form">
+                    
+                </div> -->
+                
+            </div>
         </section>
 
     </main>

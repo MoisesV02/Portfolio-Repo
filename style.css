@@ -81,6 +81,12 @@ body {
     margin-bottom: 30px;
 }
 
+.experience .card:hover {
+    transform: none;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    cursor: default;
+}
+
 /* CARD CONTAINER */
 .card-container {
     display: flex;
@@ -133,4 +139,40 @@ body {
     font-size: 0.95rem;
     color: #555;
     line-height: 1.4;
+}
+
+/* SECTION LAYOUT */
+.projects {
+    padding: 60px 20px;
+    background: #f0f0f0;;
+    text-align: center;
+}
+
+/* TITLE */
+.projects h1 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+
+.project-link{
+    text-decoration: none;;
+}
+
+.contact{
+    padding: 10px 20px;
+    background: #333;
+    text-align: center;
+    color: white;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.contact-info a:hover {
+    color: #ddd;
+    font-size: 1.7rem;
 }
