@@ -38,8 +38,22 @@ function createProjectCard(title, description, link, img){
     projectContainer.innerHTML += code;
 }
 
+// Function to toggle the navigation menu on smaller screens. It adds or removes the "active" class to the navigation links and changes the menu icon between a hamburger and an "X" based on the state of the menu.
 function toggleMenu() {
-    document.getElementById("navLinks").classList.toggle("active");
+    // Get the navigation links and menu icon elements by their IDs
+    const navLinks = document.getElementById("navLinks");
+    const menuIcon = document.getElementById("menuIcon");
+
+    navLinks.classList.toggle("active");
+
+    // Change the menu icon based on the state of the navigation links
+    if (navLinks.classList.contains("active")) {
+        menuIcon.classList.remove("fa-bars");
+        menuIcon.classList.add("fa-xmark");
+    } else {
+        menuIcon.classList.remove("fa-xmark");
+        menuIcon.classList.add("fa-bars");
+    }
 }
 
 // Function to open the email form, needs to be developed in the future, may need PHP and APIs...

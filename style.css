@@ -10,6 +10,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* NAVBAR MOVES WITH SCROLL */
 .navbar {
     position: sticky;
@@ -48,31 +52,36 @@ body {
     float: left;
 }
 
+/* HAMBURGER MENU ICON - HIDDEN BY DEFAULT */
 .navbar .hamburger-icon {
     display: none;
-    cursor: pointer;
-    color: white;
 }
 
+/* RESPONSIVE DESIGN FOR NAVBAR */
 @media screen and (max-width: 768px) {
+    /* STACK NAVBAR ITEMS VERTICALLY */
     .navbar {
         flex-wrap: wrap;
     }
 
+    /* SHOW HAMBURGER ICON AND HIDE NAVBAR LINKS */
     .navbar .hamburger-icon {
         display: block;
     }
 
+    /* HIDE NAVBAR LINKS BY DEFAULT, SHOW WHEN ACTIVE */
     .navbar ul {
         display: none;
         flex-direction: column;
         width: 100%;
     }
 
+    /* SHOW NAVBAR LINKS WHEN ACTIVE */
     .navbar ul.active {
         display: flex;
     }
 
+    /* MAKE NAVBAR LINKS FULL WIDTH AND CENTERED */
     .navbar a{
         width: 100%;
         text-align: center;
