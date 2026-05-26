@@ -38,6 +38,10 @@ function createProjectCard(title, description, link, img){
     projectContainer.innerHTML += code;
 }
 
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+}
+
 // Function to open the email form, needs to be developed in the future, may need PHP and APIs...
 // function openForm(){
 //     /*document.getElementById("contact-form")*/
