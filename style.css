@@ -86,6 +86,14 @@ html {
         width: 100%;
         text-align: center;
     }
+
+    .profile{
+        width: 140px;
+        height: 140px;
+
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
 }
 
 /* HOME SECTION BACKGROUND & LAYOUT */
@@ -106,13 +114,13 @@ html {
     height:100vh;
 }
 
-/* PONTENTIALLY REMOVE LATER */
+/* POTENTIALLY REMOVE LATER */
 .home h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-/* PONTENTIALLY REMOVE LATER */
+/* POTENTIALLY REMOVE LATER */
 .home h2 {
     font-size: 1.7rem;
 }
@@ -121,16 +129,14 @@ html {
 .about-me{
     background-color: #f0f0f0;
     padding: 50px;
-
-    display: flex;
-    justify-content: space-evenly;
 }
 
 /* ABOUT ME CONTENT */
 .about-me-content{
-    max-width: 600px;
-    margin-bottom: 20px;
-    flex:1;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    overflow: auto;
 }
 
 .about-me-content h1 {
@@ -138,14 +144,29 @@ html {
     margin-bottom: 30px;
 }
 
+.about-me-content p {
+    line-height: 1.8;
+    color: #333;
+    font-size: 1.05rem;
+
+    overflow-wrap: break-word;
+}
+
 /* ABOUT ME PROFILE PICTURE */
 .profile{
+    float: right;
+
     object-fit: cover;
+
     width: 200px;
     height: 200px;
+
     border-radius: 50%;
-    margin-top: 20px;
     border: 5px solid #333;
+
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 /* SECTION LAYOUT */
@@ -236,7 +257,7 @@ html {
 }
 
 .project-link{
-    text-decoration: none;;
+    text-decoration: none;
 }
 
 /* CONTACT SECTION LAYOUT */

@@ -68,11 +68,11 @@ function toggleMenu() {
 createExperienceCard("AI Trainer", 
     `Developed and evaluated domain-specific prompts to assess the performance of large language models (LLMs).
     Conduct independent research and analyze LLM outputs.`, 
-    "images/CERN-image-V2.jpg");
+    "https://www.shutterstock.com/image-vector/cute-green-robot-waving-hand-600nw-2455346975.jpg");
 createExperienceCard("Learning Assistant", 
     `Assisted professors with course development and student mentoring. Supported student collaboration
     and communication between groups.`, 
-    "images/CERN-image-V2.jpg");
+    "https://laprogram.fiu.edu/wp-content/uploads/cropped-LAP_Full_Color_Circle-1.png");
 
 
 //Project cards
@@ -80,10 +80,10 @@ createProjectCard("Personal Portfolio Website",
     `Designed and developed a personal portfolio website to showcase my skills, projects, and experience. 
     Implemented responsive design and interactive features using HTML, CSS, and JavaScript.`,
     "https://github.com/MoisesV02/Portfolio-Repo",
-    "images/Dispersion.jpg");
+    "images/blackhole.jpg");
 
 createProjectCard("React Website",
     `Designed and developed a game website using React that fetured responsive games that could 
     be played on both desktop and mobile devices.`,
     "https://github.com/MoisesV02/react-website",
-    "images/Dispersion.jpg");
+    "https://i.pinimg.com/736x/5d/6c/ff/5d6cffeba8f502e5a9e07748510e16fd.jpg");
