@@ -87,12 +87,18 @@ html {
         text-align: center;
     }
 
+    .about-me-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .profile{
         width: 140px;
         height: 140px;
 
-        margin-left: 20px;
-        margin-bottom: 10px;
+        float: none;
+        margin: 20px 0;
     }
 }
 
@@ -162,7 +168,7 @@ html {
     height: 200px;
 
     border-radius: 50%;
-    border: 5px solid #333;
+    border: 5px solid #000000;
 
     margin-left: 40px;
     margin-bottom: 20px;
@@ -246,7 +252,7 @@ html {
 /* SECTION LAYOUT */
 .projects {
     padding: 60px 20px;
-    background: #f0f0f0;;
+    background: #f0f0f0;
     text-align: center;
 }
 
