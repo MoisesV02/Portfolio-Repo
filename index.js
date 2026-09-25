@@ -87,3 +87,9 @@ createProjectCard("React Website",
     be played on both desktop and mobile devices.`,
     "https://github.com/MoisesV02/react-website",
     "https://i.pinimg.com/736x/5d/6c/ff/5d6cffeba8f502e5a9e07748510e16fd.jpg");
+
+createProjectCard("Handwritten Digit Recognition",
+    `Developed a machine learning model to recognize handwritten digits using Python and scikit-learn.
+    Implemented data preprocessing, model training, and evaluation techniques.`,
+    "https://github.com/MoisesV02/DigitRecognition",
+    "https://francescolelli.info/wp-content/uploads/2019/05/NeuralNetworks-input-layer-hidden-layer-output-layer-1024x670.png?8011c3&8011c3");
